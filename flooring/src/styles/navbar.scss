@@ -1,0 +1,24 @@
+.navbar{
+    padding:2rem;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    a img{
+        // margin:2rem 0 2rem 2rem 
+    }
+    .navbarRoutes{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        a{
+            text-decoration: none;
+            font-size: 1.3rem;
+            color:white;
+            &:hover{
+                color:grey;
+            }
+        }
+    }
+
+}
