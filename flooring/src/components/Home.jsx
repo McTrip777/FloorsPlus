@@ -14,20 +14,20 @@ function Home() {
             <Player {...playerProps} />
             <div className="boxes">
                 <div className="box one">
-                    <Link><img src={NewInstalls} /></Link>
-                    <Link><p>New Installs</p></Link>
+                    <Link to="/ourServices"><img src={NewInstalls} /></Link>
+                    <Link to="/ourServices"><p>New Installs</p></Link>
                 </div>
                 <div className="box two">
-                    <Link><img src={Refinishing} /></Link>
-                    <Link><p>Refinishing</p></Link>
+                    <Link to="/ourServices"><img src={Refinishing} /></Link>
+                    <Link to="/ourServices"><p>Refinishing</p></Link>
                 </div>
                 <div className="box three">
-                    <Link><img src={Custom} /></Link>
-                    <Link><p>Custom Craftsmanship</p></Link>
+                    <Link to="/ourServices"><img src={Custom} /></Link>
+                    <Link to="/ourServices"><p>Custom Craftsmanship</p></Link>
                 </div>
                 <div className="box four">
-                    <Link><img src={Commercial} /></Link>
-                    <Link><p>Commercial</p></Link>
+                    <Link to="/ourServices"><img src={Commercial} /></Link>
+                    <Link to="/ourServices"><p>Commercial</p></Link>
                 </div>
             </div>
         </div >
