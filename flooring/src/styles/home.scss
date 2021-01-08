@@ -18,6 +18,7 @@
         overflow: hidden;
         width:90%;
         margin:auto;
+        margin-bottom: 8rem;
         .box{
             align-content: center;
             height: 15rem;
@@ -28,6 +29,34 @@
             }
             
         }
+        a{
+            text-decoration: none;
+            p{
+                padding:1rem 0;
+                color:rgb(68, 68, 68);
+                font-size: 1.5rem;
+            }
+        } 
+    }
+    .michiganArea{
+        background-color: rgb(68, 68, 68);
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        h3{
+            color: white;
+            font-size: 4rem;
+            width:60vw;
+            text-align: left;
+            margin: 2rem 0 0 0;
+        }
+        img{
+            position: relative;
+            width: 18rem;
+            right:5rem;
+            bottom:4rem;
+
+        }
     }
     @media (max-width: 1100px){
         .boxes{
@@ -35,20 +64,25 @@
             .box{
                 box-sizing: border-box;
                 max-height: 20rem;
+                margin:0 4.6%;
                 max-width: 20rem;
                 min-width:10rem;
             }
         }
     }
-    // @media (max-width: 800px){
-    //     .boxes{
-    //         display: flex;
+    @media (max-width: 660px){
+        .boxes{
+            .box{
+                box-sizing: border-box;
+                max-height: 20rem;
+                height: 20rem;
+                margin:0;
+                width: 20rem;
+            }
+            a img{
+
+            }
             
-    //         .box{
-            
-    //             height: 100%;
-    //             width: 100%;
-    //         }
-    //     }
-    // }
+        }
+    }
 }

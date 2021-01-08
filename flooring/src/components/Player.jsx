@@ -11,7 +11,7 @@ const Player = ({ className }) => (
     controls
     loop
     width="90%"
-    height="100%"
+    height="90%"
     muted
   />
 );
@@ -24,8 +24,9 @@ const AbsolutelyPositionedPlayer = styled(Player)`
 
 const RelativePositionWrapper = styled.div`
   position: relative;
-  padding-top: 50.65%;
+  padding-top: 50%;
   margin-bottom: 5rem;
+  max-height="100vh"
 `;
 
 const ResponsiveStyledPlayer = () => (
