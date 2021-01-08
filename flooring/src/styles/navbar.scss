@@ -13,7 +13,7 @@
         align-items: flex-end;
         a{
             text-decoration: none;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             color:white;
             &:hover{
                 color:grey;
@@ -21,4 +21,19 @@
         }
     }
 
+}
+@media (max-width:800px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        a img{
+            margin-bottom: 2rem;
+        }
+        .navbarRoutes{
+            width:100%;
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
 }
