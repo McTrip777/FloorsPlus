@@ -151,6 +151,9 @@
             font-size: 1rem;
             border:1px solid rgb(68, 68, 68);
             color: rgb(68, 68, 68);
+            &:focus {
+                outline:0;
+            }
             &:hover{
                 background-color: rgb(68, 68, 68);
                 color:white;
@@ -210,17 +213,55 @@
             font-size: 1rem;
             border:1px solid rgb(68, 68, 68);
             color: rgb(68, 68, 68);
+            &:focus {
+                outline:0;
+            }
             &:hover{
                 background-color: rgb(68, 68, 68);
                 color:white;
                 border:1px solid white;
             }
         }
+        @media(max-width: 770px){
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .footer{
         background-color:rgb(68, 68, 68);
         height: 30rem;
+        display: flex;
+        justify-content: space-evenly;
+        width:100vw;
+        color:white;
+        .foo{
+            width:23%
+        }
+        .footerLinks{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color:white;
+            }
+        }
+        .footerContact{
+            h4{
+
+            }
+            .number{
+
+            }
+            .email{
+
+            }
+            .socials{
+                Link{
+                
+                }
+            }
+        }
     }
     
 }
