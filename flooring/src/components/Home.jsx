@@ -7,6 +7,7 @@ import Custom from '../img/Custom.jpg'
 import NewInstalls from '../img/NewInstalls.jpg'
 import Refinishing from '../img/Refinishing.jpg'
 import Michigan from '../img/michigan-indiana-map.png'
+import Wood from '../img/wood.jpg'
 
 function Home() {
     const playerProps = { playing: true };
@@ -36,6 +37,23 @@ function Home() {
                     Hardwood floor leaders in southwest Michigan and Michiana areas
                 </h3>
                 <img src={Michigan} alt="" />
+            </div>
+            <div className="workWithUs">
+                <h3>Why Work With Us</h3>
+                <ul className="">
+                    <li className="one"><i className="fa fa-check"></i>Three-generation quality craftsmanship since 1961</li>
+                    <li className="two"><i className="fa fa-check"></i>Only use highest-quality finishing products on your hardwood floor</li>
+                    <li className="three"><i className="fa fa-check"></i>Dust containment means a clean job from start to finish</li>
+                    <li className="four"><i className="fa fa-check"></i>Bona-certified craftsmen bring expertise to any creative request</li>
+                </ul>
+                <button>LEARN MORE</button>
+            </div>
+            <div className="hireUs">
+                <h3>Like What You See?  Ready to Hire Us?</h3>
+                <button>REQUEST A QUOTE</button>
+            </div>
+            <div className="footer">
+
             </div>
         </div >
     )

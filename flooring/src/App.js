@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Route, Switch } from 'react-router-dom'
-// import './styles/index.scss'
+import './styles/app.scss'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Contact from './components/Contact'

@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Player = ({ className }) => (
   <ReactPlayer
-    url={'https://www.youtube.com/watch?v=_i-Zys7A9Mw'}
+    url={'https://www.youtube.com/watch?v=MGsZU10pJAw&feature=emb_title'}
     className={className}
     playing
     volume={0.5}
@@ -25,7 +25,7 @@ const AbsolutelyPositionedPlayer = styled(Player)`
 const RelativePositionWrapper = styled.div`
   position: relative;
   padding-top: 50%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   max-height="100vh"
 `;
 
