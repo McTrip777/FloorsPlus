@@ -43,10 +43,10 @@ function Home() {
             <div className="workWithUs">
                 <h3>Why Work With Us</h3>
                 <ul className="">
-                    <li className="one"><i className="fa fa-check"></i>Three-generation quality craftsmanship since 1961</li>
-                    <li className="two"><i className="fa fa-check"></i>Only use highest-quality finishing products on your hardwood floor</li>
-                    <li className="three"><i className="fa fa-check"></i>Dust containment means a clean job from start to finish</li>
-                    <li className="four"><i className="fa fa-check"></i>Bona-certified craftsmen bring expertise to any creative request</li>
+                    <li className="one"><i className="fa fa-check" />Three-generation quality craftsmanship since 1961</li>
+                    <li className="two"><i className="fa fa-check" />Only use highest-quality finishing products on your hardwood floor</li>
+                    <li className="three"><i className="fa fa-check" />Dust containment means a clean job from start to finish</li>
+                    <li className="four"><i className="fa fa-check" />Bona-certified craftsmen bring expertise to any creative request</li>
                 </ul>
                 <Link to="/whyWorkWithUs"><button>LEARN MORE</button></Link>
             </div>

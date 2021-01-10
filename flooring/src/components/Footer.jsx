@@ -1,5 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/footer.scss'
+import certBona from '../img/certifications-bona-footer.jpg'
+import certNwfa from '../img/certifications-nwfa-footer.jpg'
+import certLagler from '../img/certifications-lagler-footer.jpg'
+
 function Footer() {
     return (
         <div className="footer">
@@ -26,7 +31,11 @@ function Footer() {
             </div>
             <div className="foo footerCertified">
                 <h4>Certified Professionals</h4>
-
+                <div className="certImgs">
+                    <img src={certBona} alt="" />
+                    <img src={certNwfa} alt="" />
+                    <img src={certLagler} alt="" />
+                </div>
             </div>
         </div>
     )

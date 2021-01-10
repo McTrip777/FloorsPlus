@@ -17,7 +17,7 @@ const Carousel = () => {
     return (
         <div className="carouselContainer">
             <img className="carousel" src={imgArr[current]} alt="" />
-            <h1>Locally Owned Since 1961</h1>
+            <h1>Locally owned since 1961</h1>
             <Link to="/contact"><button>GET YOUR FREE QUOTE</button></Link>
         </div>
     )
