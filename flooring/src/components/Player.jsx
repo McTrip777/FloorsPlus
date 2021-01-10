@@ -18,15 +18,16 @@ const Player = ({ className }) => (
 
 const AbsolutelyPositionedPlayer = styled(Player)`
   position: absolute;
-  top: 2rem;
+  top: 2em;
   left: 5%;
 `;
 
 const RelativePositionWrapper = styled.div`
   position: relative;
   padding-top: 50%;
-  margin-bottom: 2rem;
-  max-height="100vh"
+  margin-bottom: 2em;
+  max-height=100vh
+  height=100vh
 `;
 
 const ResponsiveStyledPlayer = () => (

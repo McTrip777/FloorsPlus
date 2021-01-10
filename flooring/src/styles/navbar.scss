@@ -1,10 +1,14 @@
 .navbar{
-    padding:2rem;
-    background: rgb(68, 68, 68);
+    padding:2em;
+    background: rgba(68, 68, 68, .5);
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    width: 100vw;
+    box-sizing: border-box;
+    z-index: 100;
     a img{
-        // margin:2rem 0 2rem 2rem 
+        // margin:2em 0 2em 2em 
     }
     .navbarRoutes{
         width: 60%;
@@ -13,7 +17,7 @@
         align-items: flex-end;
         a{
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1.2em;
             color:white;
             &:hover{
                 color:grey;
@@ -27,12 +31,12 @@
         flex-direction: column;
         align-items: center;
         a img{
-            margin-bottom: 2rem;
+            margin-bottom: 2em;
         }
         .navbarRoutes{
             width:100%;
             a{
-                font-size: 1rem;
+                font-size: 1em;
             }
         }
     }
