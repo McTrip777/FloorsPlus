@@ -190,6 +190,7 @@
                 margin:2em 0;
                 background-color: rgb(68, 68, 68);
                 padding:1em;
+                border-radius: 10px;
                 .fa{
                     color:white;
                     padding-right:.5em;
@@ -240,13 +241,31 @@
                     width:90%;
                     color:white;
                     font-size: .9em;
+                    
                     .fa{
                     }
                 }
             }
         }
     }
-
+    .reviewsContainer{
+        text-align: center;
+        padding:4em;
+        background-color: rgb(68, 68, 68);
+        color: white;
+        h3{
+            font-size: 2.2em;
+            padding:0 1em 1em 1em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+        h6{
+            font-weight: bold;
+            font-size: 1.2em;
+            padding:.8em;
+        }
+    }
     // Hire Us
     .hireUs{
         display: flex;

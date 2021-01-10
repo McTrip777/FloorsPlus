@@ -50,10 +50,24 @@ function Home() {
                 </ul>
                 <Link to="/whyWorkWithUs"><button>LEARN MORE</button></Link>
             </div>
+            <div className="reviewsContainer">
+                <h3>What Our Customers Are Saying...</h3>
+                <p>Mattson Floor is truly a five-star company.
+                Not only is their craftsmanship top of the line,
+                their attention to detail and character of customer
+                relations are remarkable. Mattson Floor applied a
+                garage floor coating for my home, and everything
+                from scheduling to application was seamless.
+                Mattson Floor is truly a gem of Southwest Michigan.
+                Thank you!
+                </p>
+                <h6>- Lisa A.</h6>
+            </div>
             <div className="hireUs">
                 <h3>Like What You See?  Ready to Hire Us?</h3>
                 <Link to="/contact"><button>REQUEST A QUOTE</button></Link>
             </div>
+
             <Footer />
         </div>
     )
