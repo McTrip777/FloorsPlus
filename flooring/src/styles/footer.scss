@@ -35,6 +35,9 @@
             margin:.5em 0;
         }
         .socials{
+            i{
+                color:white;
+            }
             a{
                 margin:.5em 2em .5em 0;
             }
@@ -77,6 +80,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        text-align: center;
         .foo{
             align-items: center;
             width:90%;
