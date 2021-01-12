@@ -1,12 +1,97 @@
-#newInstalls{
-    height: 50vh;
-}
-#refinishing{
-    height: 50vh;
-}
-#customCraftsmanship{
-    height: 50vh;
-}
-#commercial{
-    height: 50vh;
+.serviceContainer{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    
+    .blockContainer{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-self: center;
+        padding:4em 0 4em 0;
+
+        .serviceTitles{
+            text-align: center;
+            font-size: 3em;
+            padding:1em 0;
+        }
+        .block{
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                width:40%;
+                border-radius: 25px;
+            }
+            .innerBlock{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width:45%;
+                padding:1em;
+                align-items: center;
+            }
+        }
+
+    }
+    #newInstalls{
+        padding:5em 0 8em 0;
+        background-color: rgb(223, 213, 182);
+        clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+        .newInstallsContainer .newInstallsContent .innerBlock{
+            p{
+            }
+            ul{
+                li{
+
+                }
+            }
+            
+        }
+    }
+    #refinishing {
+        
+
+        .refinishingContent .innerBlock{
+            h5{
+                
+            }
+            p{
+                
+            }
+            
+        }
+    }
+    #customCraftsmanship {
+        clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+        background-color: rgb(223, 213, 182);
+        padding:4em 0 8em 0;
+
+    }
+    .customCraftsmanshipContent .innerBlock{
+        h5{
+
+        }
+        p{
+
+        }
+        ul{
+            li{
+
+            }
+        }
+        p{
+
+        }
+    }
+    #commercial .commercialContent{
+        padding-bottom: 3em;
+        .innerBlock{
+            h5{
+            
+            }
+            p{
+    
+            }
+        }
+    }
 }

@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import WhyWork from './components/WhyWork'
+import Footer from './components/Footer'
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/whyWorkWithUs" component={WhyWork} />
         <Route path="/" component={Home} />
       </Switch>
+      <Footer />
     </div>
   )
 }

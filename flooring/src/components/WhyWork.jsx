@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 function WhyWork() {
     return (
         <div>
-            <Navbar />
 
         </div>
     )

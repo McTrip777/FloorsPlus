@@ -8,7 +8,6 @@ import NewInstalls from '../img/NewInstalls.jpg'
 import Refinishing from '../img/Refinishing.jpg'
 import Michigan from '../img/michigan-indiana-map.png'
 import Carousel from './Carousel'
-import Footer from './Footer'
 
 function Home() {
     const playerProps = { playing: true };
@@ -67,8 +66,6 @@ function Home() {
                 <h3>Like What You See?  Ready to Hire Us?</h3>
                 <Link to="/contact"><button>REQUEST A QUOTE</button></Link>
             </div>
-
-            <Footer />
         </div>
     )
 }
