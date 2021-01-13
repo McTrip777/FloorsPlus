@@ -19,9 +19,9 @@ function Footer() {
                 <p className="number">(269) 208-5144</p>
                 <p className="email">contact@mattsonfloor.com</p>
                 <div className="socials">
-                    <Link to="/facebook"><i class="fab fa-facebook fa-2x"></i></Link>
-                    <Link to="/instagram"><i class="fab fa-instagram fa-2x"></i></Link>
-                    <Link to="/twitter"><i class="fab fa-twitter fa-2x"></i></Link>
+                    <Link to="/facebook"><i className="fab fa-facebook fa-2x"></i></Link>
+                    <Link to="/instagram"><i className="fab fa-instagram fa-2x"></i></Link>
+                    <Link to="/twitter"><i className="fab fa-twitter fa-2x"></i></Link>
                 </div>
                 <Link to="/contact"><button>REQUEST A QUOTE</button></Link>
             </div>

@@ -2,42 +2,55 @@
     display: flex;
     flex-direction: column;
     width:100vw;
+    padding-top: 12em;
     
     .blockContainer{
         display: flex;
         flex-direction: column;
-        width:100%;
-        align-self: center;
-        padding:4em 0 4em 0;
-
-        .serviceTitles{
-            text-align: center;
-            font-size: 3em;
-            padding:1em 0;
+        align-items: center;
+        // padding:4em 0 4em 0;
+        
+        .clickableImg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:80%;
+            cursor: pointer;
+            padding:.5em 0;
+            
+            .serviceTitles{
+                font-size: 3em;
+                padding:1em 0;
+                &:focus{
+                    
+                }
+            }
+            img{
+                box-sizing: border-box;
+                width:80%;
+                height:10em;
+                overflow: hidden;
+                object-fit: cover;
+                border-radius: 25px;
+                position: absolute;
+                z-index: -100;
+            }
+            
         }
         .block{
             display: flex;
+            flex-direction: column;
             justify-content: space-evenly;
-            img{
-                width:40%;
-                border-radius: 25px;
-            }
-            .innerBlock{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                width:45%;
-                padding:1em;
-                align-items: center;
-            }
+            align-items: center;
+            width:80vw;
         }
-
     }
     #newInstalls{
-        padding:5em 0 8em 0;
-        background-color: rgb(223, 213, 182);
-        clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-        .newInstallsContainer .newInstallsContent .innerBlock{
+        // padding:8em 0 8em 0;
+        // background-color: rgb(104, 101, 95);
+        // clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+        .newInstallsContainer{
+            visibility: hidden;
             p{
             }
             ul{
@@ -51,7 +64,8 @@
     #refinishing {
         
 
-        .refinishingContent .innerBlock{
+        .refinishingContainer{
+            visibility: hidden;
             h5{
                 
             }
@@ -62,12 +76,13 @@
         }
     }
     #customCraftsmanship {
-        clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
-        background-color: rgb(223, 213, 182);
-        padding:4em 0 8em 0;
+        // clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0, 50% 10%);
+        // background-color: rgb(223, 213, 182);
+        // padding:4em 0 8em 0;
 
     }
-    .customCraftsmanshipContent .innerBlock{
+    .customCraftsmanshipContainer{
+        visibility: hidden;
         h5{
 
         }
@@ -83,8 +98,9 @@
 
         }
     }
-    #commercial .commercialContent{
-        padding-bottom: 3em;
+    #commercial .commercialContainer{
+        visibility: hidden;
+        // padding-bottom: 3em;
         .innerBlock{
             h5{
             
