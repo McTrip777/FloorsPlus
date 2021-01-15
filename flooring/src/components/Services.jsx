@@ -15,7 +15,6 @@ function Services() {
     let blockVisability = document.getElementsByClassName("block")
 
     const clickableOne = (value) => {
-        console.log("here", value)
         if (value === "clickableImgOne") {
             setFirstBlock(!firstBlock)
         } else if (value === "clickableImgTwo") {
@@ -26,38 +25,37 @@ function Services() {
             setFourthBlock(!fourthBlock)
         }
     }
-    // console.log(firstBlock)
+
     useEffect(() => {
         for (let i = 0; i < blockVisability.length; i++) {
             // console.log(blockVisability[i].className.split(' ')[0])
             if (blockVisability[i].className.split(' ')[0] === "newInstallsContainer") {
                 if (firstBlock) {
-                    document.getElementsByClassName("newInstallsContainer")[0].style.visibility = "visible"
+                    document.getElementsByClassName("newInstallsContainer")[0].style.display = "flex"
                 } else {
-                    document.getElementsByClassName("newInstallsContainer")[0].style.visibility = "hidden"
+                    document.getElementsByClassName("newInstallsContainer")[0].style.display = "none"
                 }
             } else if (blockVisability[i].className.split(' ')[0] === "refinishingContainer") {
                 if (secondBlock) {
-                    document.getElementsByClassName("refinishingContainer")[0].style.visibility = "visible"
+                    document.getElementsByClassName("refinishingContainer")[0].style.display = "flex"
                 } else {
-                    document.getElementsByClassName("refinishingContainer")[0].style.visibility = "hidden"
+                    document.getElementsByClassName("refinishingContainer")[0].style.display = "none"
                 }
             } else if (blockVisability[i].className.split(' ')[0] === "customCraftsmanshipContainer") {
                 if (thirdBlock) {
-                    document.getElementsByClassName("customCraftsmanshipContainer")[0].style.visibility = "visible"
+                    document.getElementsByClassName("customCraftsmanshipContainer")[0].style.display = "flex"
                 } else {
-                    document.getElementsByClassName("customCraftsmanshipContainer")[0].style.visibility = "hidden"
+                    document.getElementsByClassName("customCraftsmanshipContainer")[0].style.display = "none"
                 }
             } else if (blockVisability[i].className.split(' ')[0] === "commercialContainer") {
                 if (fourthBlock) {
-                    document.getElementsByClassName("commercialContainer")[0].style.visibility = "visible"
+                    document.getElementsByClassName("commercialContainer")[0].style.display = "flex"
                 } else {
-                    document.getElementsByClassName("commercialContainer")[0].style.visibility = "hidden"
+                    document.getElementsByClassName("commercialContainer")[0].style.display = "none"
                 }
             }
         }
     }, [firstBlock, secondBlock, thirdBlock, fourthBlock])
-    // console.log(firstBlock)
 
     return (
         <div className="serviceContainer">
