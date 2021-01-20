@@ -102,6 +102,7 @@
     }
     .boxThree{
         width:100%;
+        padding-bottom: 3em;
         .boxThreeDescription{
             display: flex;
             flex-direction: column;
@@ -147,6 +148,7 @@
         .boxThree{
             display: flex;
             flex-direction: column;
+            
             .boxThreeDescription{
                 max-width: 100%;
                 h2{
@@ -188,7 +190,10 @@
         }
     }
     .boxFour{
-        margin:4em 0 6em 0;
+        margin:0 0 4em 0;
+        padding-top: 2em;
+        border-top: 2px solid rgb(68, 68, 68);
+
         img{
             width:45%;
             border-radius: 15px;
