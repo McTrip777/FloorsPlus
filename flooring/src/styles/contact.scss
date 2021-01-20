@@ -30,7 +30,10 @@
                 .nameEmail{
                     padding:1em;
                     width:100%;
-                    
+                    background-color: rgb(68,68,68);
+                    &::placeholder {
+                        color: white;
+                    }
                 }
                 .name{
                     margin-right: 1em;
@@ -44,6 +47,10 @@
                 width:100%;
                 padding:1em;
                 margin:2em 0;
+                background-color: rgb(68,68,68);
+                &::placeholder {
+                    color: white;
+                }
             }
         }
         .buttons{
