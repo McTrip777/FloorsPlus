@@ -17,7 +17,7 @@ function Footer() {
             <div className="foo footerContact">
                 <h4>Contact Us</h4>
                 <p className="number">(111) 111-1111</p>
-                <p className="email">contact@FloorPlus.com</p>
+                <p className="email">contact@FloorsPlus.com</p>
                 <div className="socials">
                     <Link to="/facebook"><i className="fab fa-facebook fa-2x"></i></Link>
                     <Link to="/instagram"><i className="fab fa-instagram fa-2x"></i></Link>

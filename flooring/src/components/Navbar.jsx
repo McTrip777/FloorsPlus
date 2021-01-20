@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../img/flooringLogo.png'
+import logo from '../img/Floors.png'
 import '../styles/navbar.scss'
 
 function Navbar() {

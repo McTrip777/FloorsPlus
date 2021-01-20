@@ -21,7 +21,6 @@ function Contact() {
     }
 
     return (
-        // <div className="contactContainer">
         <form method="post" action="https://formspree.io/xvoglaop">
             <header className="contactHeader">
                 <h2>Interested in working together?</h2>
@@ -40,7 +39,6 @@ function Contact() {
                 </div>
             </div>
         </form>
-        // </div>
     )
 }
 export default Contact
