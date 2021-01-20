@@ -65,7 +65,7 @@ function Services() {
                     <img src={NewInstalls} alt="" />
                 </div>
                 <div className="newInstallsContainer block" >
-                    <p>Mattson Floor can install new hardwood flooring in any location in your home or business office. We can tackle any challenge and make sure the finished product is of the highest quality.</p>
+                    <p>Floors Plus can install new hardwood flooring in any location in your home or business office. We can tackle any challenge and make sure the finished product is of the highest quality.</p>
                     <ul>
                         <li>We install a wide variety of hardwood floors – oak, maple, walnut, cherry, and more</li>
                         <li>We only use flooring materials we would desire in our own home</li>
@@ -92,7 +92,7 @@ function Services() {
                 </div>
                 <div className="customCraftsmanshipContainer block">
                     <h5>After three generations and many decades of fashions, we have seen our share of custom hardwood floor dreams that we’ve helped make a reality.</h5>
-                    <p>Mattson Floor has created a wide range of custom solutions, some of which include:</p>
+                    <p>Floors Plus has created a wide range of custom solutions, some of which include:</p>
                     <ul>
                         <li>Hand scraping and distressing to simulate an aged, reclaimed, or old world look. This can be done on new or existing wood floors</li>
                         <li>Intricate borders in contrasting woods or colors. The borders can be the perimeter of a room or within a room space to accent other room decór.</li>

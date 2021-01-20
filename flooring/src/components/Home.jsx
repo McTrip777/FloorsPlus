@@ -6,7 +6,7 @@ import Commercial from '../img/Commercial.jpg'
 import Custom from '../img/Custom.jpg'
 import NewInstalls from '../img/NewInstalls.jpg'
 import Refinishing from '../img/Refinishing.jpg'
-import Michigan from '../img/michigan-indiana-map.png'
+import Map from '../img/map.png'
 import Carousel from './Carousel'
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className="homeContainer">
             <Carousel />
-            <Player {...playerProps} />
+            {/* <Player {...playerProps} /> */}
             <div className="boxes">
                 <div className="box one">
                     <Link to="/ourServices#newInstalls"><img src={NewInstalls} /></Link>
@@ -33,16 +33,16 @@ function Home() {
                     <Link to="/ourServices#commercial"><p>Commercial</p></Link>
                 </div>
             </div>
-            <div className="michiganArea">
+            <div className="mapArea">
                 <h3>
-                    Hardwood floor leaders in southwest Michigan and Michiana areas
+                    Here to serve your flooring needs!
                 </h3>
-                <img src={Michigan} alt="" />
+                <img src={Map} alt="" />
             </div>
             <div className="workWithUs">
                 <h3>Why Work With Us</h3>
                 <ul className="socials">
-                    <li className="one"><i className="fa fa-check" />Three-generation quality craftsmanship since 1961</li>
+                    <li className="one"><i className="fa fa-check" />Family owned for many generations</li>
                     <li className="two"><i className="fa fa-check" />Only use highest-quality finishing products on your hardwood floor</li>
                     <li className="three"><i className="fa fa-check" />Dust containment means a clean job from start to finish</li>
                     <li className="four"><i className="fa fa-check" />Bona-certified craftsmen bring expertise to any creative request</li>
@@ -51,13 +51,13 @@ function Home() {
             </div>
             <div className="reviewsContainer">
                 <h3>What Our Customers Are Saying...</h3>
-                <p>Mattson Floor is truly a five-star company.
+                <p>Floors Plus is truly a five-star company.
                 Not only is their craftsmanship top of the line,
                 their attention to detail and character of customer
-                relations are remarkable. Mattson Floor applied a
+                relations are remarkable. Floors Plus applied a
                 garage floor coating for my home, and everything
                 from scheduling to application was seamless.
-                Mattson Floor is truly a gem of Southwest Michigan.
+                Floors Plus is true gem.
                 Thank you!
                 </p>
                 <h6>- Lisa A.</h6>

@@ -16,8 +16,8 @@ function Footer() {
             </div>
             <div className="foo footerContact">
                 <h4>Contact Us</h4>
-                <p className="number">(269) 208-5144</p>
-                <p className="email">contact@mattsonfloor.com</p>
+                <p className="number">(111) 111-1111</p>
+                <p className="email">contact@FloorPlus.com</p>
                 <div className="socials">
                     <Link to="/facebook"><i className="fab fa-facebook fa-2x"></i></Link>
                     <Link to="/instagram"><i className="fab fa-instagram fa-2x"></i></Link>
@@ -27,7 +27,7 @@ function Footer() {
             </div>
             <div className="foo footerServices">
                 <h4>Service Area</h4>
-                <p>Our hardwood floor specialists serve the southwest Michigan and Michiana area</p>
+                <p>Our hardwood floor specialists are here to serve you!</p>
             </div>
             <div className="foo footerCertified">
                 <h4>Certified Professionals</h4>
