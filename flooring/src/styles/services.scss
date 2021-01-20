@@ -1,14 +1,26 @@
 .serviceContainer{
     display: flex;
     flex-direction: column;
+    // margin: auto;
     width:100vw;
-    padding-top: 9em;
-    
+    padding: 9em 5% 0 5%;
+    box-sizing: border-box;
+    // background-color: rgb(243, 218, 196);
+    z-index: 0;
+    position: relative;
+    h1{
+        font-size: 3em;
+        text-align: center;
+        padding-bottom: 1em;
+        border-bottom:2px solid rgb(68, 68, 68);
+    }
     .blockContainer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding:1.5em;
+        padding:1em;
+        width:100%;
+        box-sizing: border-box;
         
         .clickableImg {
             display: flex;
@@ -26,6 +38,7 @@
                 background-color: rgba(68, 68, 68, .7);
                 text-align: center;
                 border-radius: 10px;
+                width:90%;
             }
             img{
                 box-sizing: border-box;
@@ -35,7 +48,7 @@
                 object-fit: cover;
                 border-radius: 25px;
                 position: absolute;
-                z-index: -100;
+                z-index: -1;
             }
             
         }
@@ -49,9 +62,10 @@
             box-sizing: border-box;
             color: white;
             text-align: center;
+            border-radius: 10px;
         }
         h5{
-            font-size: 1.8em;
+            font-size: 1.6em;
         }
         p{
             padding:1em 0;
@@ -68,6 +82,7 @@
                 background-color: white;
                 width:22%;
                 text-align: left;
+                border-radius: 20px;
             }
         }
     }
@@ -79,6 +94,7 @@
             p{
             }
             ul{
+                
                 li{
 
                 }
@@ -137,5 +153,125 @@
 @media(max-width:800px){
     .serviceContainer{
         padding-top: 12em;
+        .blockContainer{
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // padding:1.5em;
+            
+            .clickableImg {
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // width:80%;
+                // cursor: pointer;
+                // padding:.5em 0;
+                
+                .serviceTitles{
+                    // font-size: 3em;
+                    // margin:1em 0;
+                    // padding: .2em;
+                    // color: white;
+                    // background-color: rgba(68, 68, 68, .7);
+                    // text-align: center;
+                    // border-radius: 10px;
+                }
+                img{
+                    // box-sizing: border-box;
+                    // width:80%;
+                    // height:10em;
+                    // overflow: hidden;
+                    // object-fit: cover;
+                    // border-radius: 25px;
+                    // position: absolute;
+                    // z-index: -100;
+                }
+                
+            }
+            .block{
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: space-evenly;
+                // width:80vw;
+                // background-color: rgb(68, 68, 68);
+                // padding: 1em;
+                // box-sizing: border-box;
+                // color: white;
+                // text-align: center;
+            }
+            h5{
+                // font-size: 1.8em;
+            }
+            p{
+                // padding:1em 0;
+                
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                
+                li{
+                    width:100%;
+                    margin:.5em 0;
+                }
+            }
+        }
+        #newInstalls{
+            .newInstallsContainer{
+                p{
+                }
+                ul{
+                    
+                    li{
+    
+                    }
+                }
+                
+            }
+        }
+        #refinishing {
+            
+    
+            .refinishingContainer{
+                h5{
+                    
+                }
+                p{
+                    
+                }
+                
+            }
+        }
+        #customCraftsmanship {
+    
+        }
+        .customCraftsmanshipContainer{
+            h5{
+    
+            }
+            p{
+    
+            }
+            ul{
+                li{
+    
+                }
+            }
+            p{
+    
+            }
+        }
+        #commercial .commercialContainer{
+            // padding-bottom: 3em;
+            .innerBlock{
+                h5{
+                
+                }
+                p{
+        
+                }
+            }
+        }
     }
 }

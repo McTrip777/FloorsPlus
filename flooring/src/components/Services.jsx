@@ -59,6 +59,7 @@ function Services() {
 
     return (
         <div className="serviceContainer">
+            <h1>Our Services</h1>
             <div id="newInstalls" className="blockContainer">
                 <div className="clickableImg clickableImgOne" onClick={() => clickableOne("clickableImgOne")}>
                     <h4 className="serviceTitles"> New Installs </h4>
